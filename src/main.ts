@@ -1,4 +1,5 @@
 // src/main.ts
+import "xterm/css/xterm.css";
 import { createCLI } from "./cli";
 
 const container = document.getElementById("terminal");
