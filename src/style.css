@@ -1,0 +1,28 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #1e1e1e;
+  font-family: monospace;
+  overflow: hidden;
+}
+
+#terminal {
+  width: 100%;
+  height: 100%;
+  background-color: #1e1e1e;
+}
+
+/* Remove xterm selection border */
+.xterm {
+  border: none !important;
+}
+
+/* Remove scrollbars inside terminal */
+.xterm .xterm-viewport {
+  overflow: hidden !important;
+}
+
+.xterm ::selection {
+  background: #444444;
+}

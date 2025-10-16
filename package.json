@@ -1,0 +1,16 @@
+{
+  "name": "terminal-raid-frontend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "parcel index.html --open"
+  },
+  "dependencies": {
+    "xterm": "^5.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.0",
+    "parcel": "^2.9.3"
+  }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TerminalRaid CLI</title>
+  <link rel="stylesheet" href="node_modules/xterm/css/xterm.css">
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      background-color: #1e1e1e; /* dark terminal background */
+      font-family: monospace;
+      overflow: hidden; /* remove scrollbars */
+    }
+    #terminal {
+      height: 100%;
+      width: 100%;
+    }
+    ::-webkit-scrollbar {
+      display: none; /* hide any scrollbars */
+    }
+  </style>
+</head>
+<body>
+  <div id="terminal"></div>
+  <script type="module" src="./src/main.ts"></script>
+</body>
+</html>
